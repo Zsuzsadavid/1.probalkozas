@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="-10dp"
+    android:layout_marginRight="-10dp"
+    android:background="@drawable/background"
+    android:rotation="0"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="91dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginRight="312dp"
+        android:background="@drawable/boomerang"
+        android:text="Back activity_main1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="138dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="568dp"
+        android:layout_marginLeft="568dp"
+        android:layout_marginTop="450dp"
+        android:rotation="0"
+        android:text="Back "
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753"
+        tools:text="Back to activity_main" />
+
+    <VideoView
+        android:id="@+id/A.R.G.O.S narráció animációja "
+        android:layout_width="252dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/rectangle_105"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android
+        android:layout_width="91dp"
+        android:layout_height="95dp"
+        android:background="@drawable/component_10__6"
+        android:text="activiy_main3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838"
+        tools:layout_editor_absoluteX="292dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
